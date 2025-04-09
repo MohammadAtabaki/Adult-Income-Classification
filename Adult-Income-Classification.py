@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import cross_val_score
+
 
 from google.colab import files
 files.upload()
